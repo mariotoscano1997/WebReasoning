@@ -1,0 +1,10 @@
+@prefix cou: <http://www.example.org/courses/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix stu: <http://www.example.org/students/> .
+@prefix voc: <http://www.example.org/students/vocab#> .
+
+cou:C345 voc:students [ a rdf:Bag ;
+            rdf:List stu:Anna,
+                stu:Giovanni,
+                stu:Marco ] .
+

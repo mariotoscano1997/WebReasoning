@@ -1,0 +1,14 @@
+@prefix ns1: <http://www.workingontologist.org/Examples/Chapter3/shakespeare#> .
+@prefix ns2: <https://dbpedia.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://dbpedia.org/page/Mark_Twain> ns1:wrote [ ns1:title <https://dbpedia.org/page/The_Adventures_of_Tom_Sawyer> ] ;
+    ns2:child [ a rdf:Bag ;
+            rdf:List <https://dbpedia.org/page/Clara_Clemens>,
+                <https://dbpedia.org/page/Jean_Clemens>,
+                <https://dbpedia.org/page/Susy_Clemens> ] ;
+    ns2:pseudonym "Samuel Clemens" .
+
+[] ns1:author <https://dbpedia.org/page/Mark_Twain> ;
+    ns1:title <https://dbpedia.org/page/Adventures_of_Huckleberry_Finn> .
+

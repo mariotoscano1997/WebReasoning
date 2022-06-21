@@ -1,0 +1,15 @@
+@prefix dbr: <https://dbpedia.org/page/> .
+@prefix exaddressid: <http://www.example.org/addressid/> .
+@prefix exstaff: <http://www.example.org/staffid/> .
+@prefix exterms: <http://www.example.org/terms/> .
+@prefix wr: <https://www.dropbox.com/home/WebReasoning/voc.ttl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+exstaff:john exterms:adress exaddressid:n85740 .
+
+exaddressid:n85740 wr:ZIP 1730 ;
+    wr:civicnumber 1501 ;
+    wr:state dbr:Massachusetts ;
+    wr:street "Gran Avenue" ;
+    wr:town dbr:Bedford .
+
