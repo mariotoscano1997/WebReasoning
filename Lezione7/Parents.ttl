@@ -1,0 +1,23 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wr: <https://www.dropbox.com/home/Webreasoning/voc.ttl/> .
+
+
+wr:Maria a wr:Woman ;
+wr:hasFather wr:Sargent ;
+wr:hasMother wr:Eunice .
+
+wr:Eunice a wr:Woman .
+
+wr:Sargent a wr:Man .
+
+wr:Ted a wr:Man ;
+wr:hasBrother wr:John ;
+wr:hasSister wr:Eunice .
+
+wr:John a wr:Man ;
+wr:hasFather wr:Joe .
+
+wr:Joe a wr:Man .
+
+wr:Caroline a wr:Woman ;
+wr:hasFather wr:John .

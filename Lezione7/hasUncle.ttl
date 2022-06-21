@@ -1,0 +1,30 @@
+@prefix wr: <https://www.dropbox.com/home/Webreasoning/voc.ttl/> .
+
+wr:Caroline a wr:Woman ;
+    wr:hasFather wr:John ;
+    wr:hasParent wr:John ;
+    wr:hasUncle wr:Ted .
+
+wr:Maria a wr:Woman ;
+    wr:hasFather wr:Sargent ;
+    wr:hasMother wr:Eunice ;
+    wr:hasParent wr:Eunice,
+        wr:Sargent ;
+    wr:hasUncle wr:Ted .
+
+wr:Joe a wr:Man .
+
+wr:Sargent a wr:Man .
+
+wr:Ted a wr:Man ;
+    wr:hasBrother wr:John ;
+    wr:hasSibling wr:Eunice,
+        wr:John ;
+    wr:hasSister wr:Eunice .
+
+wr:Eunice a wr:Woman .
+
+wr:John a wr:Man ;
+    wr:hasFather wr:Joe ;
+    wr:hasParent wr:Joe .
+
